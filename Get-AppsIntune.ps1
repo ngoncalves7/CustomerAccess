@@ -420,9 +420,9 @@ function Get-AuthToken {
         ### $DetectedApps | select displayName,version | ft
         }
         }
-        $mergeCollection
+        # $mergeCollection
         $mergeCollection | Export-Csv -Delimiter ',' -Path $local
-        write-host "Exportação criada em $local" -f green
+        write-host "Exportacao criada em $local" -f green
         
     
     }

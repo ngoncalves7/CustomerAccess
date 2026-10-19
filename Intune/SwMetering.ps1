@@ -48,8 +48,8 @@
 
 $TrackedApplications = @(
 
-    [PSCustomObject]@{ FriendlyName = "VLC Media Player";   ProcessNames = @("vlc.exe") }
-    [PSCustomObject]@{ FriendlyName = "Notepad++";   ProcessNames = @("notepad++.exe") }
+    [PSCustomObject]@{ FriendlyName = "Calculadora";   ProcessNames = @("calc.exe") }
+    [PSCustomObject]@{ FriendlyName = "Notepad";   ProcessNames = @("notepad.exe") }
 
     )
 
